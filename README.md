@@ -11,14 +11,14 @@ output (speech via MMS-TTS, music via ACE-Step).
 ## Requirements
 
 - Python 3.10+
-- NVIDIA GPU (T4 or better recommended)
+- NVIDIA GPU (tested with NVIDIA RTX 6000 Blackwell)
 - ~30 GB free disk (for cached models)
 
 ## Installation
 
 ```bash
-git clone <your-repo-url> rag-broadcast
-cd rag-broadcast
+git clone https://github.com/Faithful777/air_wave_africa/
+cd air_wave_africa
 python -m venv venv
 source venv/bin/activate          # Windows: venv\Scripts\activate
 pip install -r requirements.txt
