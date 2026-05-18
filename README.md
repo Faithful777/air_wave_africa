@@ -45,4 +45,16 @@ and a music .wav per run, plus the translated text/lyrics.
 ```bash
 python run.py --runs 3
 ```
+Optional arguments:
+
+```bash
+python run.py --runs 3 --output-dir output --seed 42
+```
+
+Outputs
+For each run i:
+
+output/translated_speech_{i}.wav – translated radio segment audio
+output/translated_{i}.wav        – generated educational song audio
+output/broadcast_{i}.txt         – English script, translation, lyrics, metadata
 
