@@ -1,0 +1,19 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.env
+
+# Project artifacts
+output/
+data/*.txt
+config/user_config.json
+*.wav
+*.pkl
+
+# IDE
+.vscode/
+.idea/
+.DS_Store
