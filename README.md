@@ -1,4 +1,4 @@
-# 🌍 RAG Broadcast Generation System
+# 🌍 Air Wave Africa Gemma 4 RAG-based Broadcast Generation System
 
 Gemma 4 + Local Knowledge Base → Speech Scripts & Educational Songs.
 
