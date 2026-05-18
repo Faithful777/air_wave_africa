@@ -21,8 +21,8 @@ class KBChunk:
 
 
 class KnowledgeBaseParser:
-    CHUNK_RE = re.compile(r"^## \(CHUNK [A-Z]+-\d+\)\s*\|(.+)$", re.MULTILINE)
-    KW_RE    = re.compile(r"\*\*Keywords:\*\*\s*(.+)$",          re.MULTILINE)
+    CHUNK_RE = re.compile(r'^## (CHUNK [A-Z]+-\d+)\s*\|(.+)$', re.MULTILINE)
+    KW_RE    = re.compile(r'\*\*Keywords:\*\*\s*(.+)$', re.MULTILINE)
 
     def parse(self, doc_path):
         text = Path(doc_path).read_text(encoding="utf-8")
